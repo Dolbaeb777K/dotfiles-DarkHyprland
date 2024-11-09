@@ -1,5 +1,7 @@
-# dotfiles-DarkHyprland
-This repository include pre-configured dotfiles for Hyprland (works correctly on Linux systems only) ...
+# DarkHyprland
+This repository includes pre-configured dotfiles for Hyprland (works correctly on Linux systems only) ...
 
-Dependencies:
-` hyprland waybar rofi-wayland hyprshot`
+## Dependencies:
+Main:  `hyprland waybar rofi-wayland hyprshot`
+
+fonts: `ttf-jetbrains-mono-nerd ttf-segoe-ui-variable ttf-ubuntu-font-family`

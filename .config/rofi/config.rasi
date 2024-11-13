@@ -1,24 +1,23 @@
 
 configuration {
   
-    yoffset: -42;
-    xoffset: 0;
+	yoffset: -42;
+	xoffset: 0;
+	show-icons:	true;
 	
-	show-icons: true;
-
-      hover-select:               true;
-			me-select-entry:            "MouseSecondary";
-			me-accept-entry:            "MousePrimary";
-
-	  timeout {
-		    action: "kb-cancel";
-			  delay:  0;
-	  }
+	hover-select:	true;
+	me-select-entry:	"MouseSecondary";
+	me-accept-entry:	"MousePrimary";
 	
-		filebrowser {
-		    directories-first: true;
-		    sorting-method:    "name";
-	  }
+	timeout {
+		action: "kb-cancel";
+		delay:  0;
+	}
+		
+	filebrowser {
+		directories-first: true;
+		sorting-method:    "name";
+		}
 }
 
 @theme "~/.config/rofi/rounded-blue-dark.rasi"

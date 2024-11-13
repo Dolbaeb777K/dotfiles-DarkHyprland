@@ -1,5 +1,5 @@
 {
-    "layer": "bottom",
+    "layer": "top",
     "position": "bottom",
     "mod": "dock",
     "exclusive": true,
@@ -46,8 +46,8 @@
     },
     "custom/os_button": {
         "format": "",
-        "on-click": "pkill rofi || rofi -show drun -modi drun,filebrowser,run,window",
-        "on-click-right": "pkill rofi || ~/.config/hypr/scripts/rofi-logout.sh",
+        "on-click": "rofi -show drun || pkill rofi",
+        "on-click-right": "~/.config/hypr/scripts/rofi-logout.sh",
         "tooltip": false
     },
     "cpu": {

@@ -1,14 +1,15 @@
 #!/bin/bash
 # logout dialog
 
-cmd=$(echo -e "󰒲   Suspend\n󱄌   Reboot\n󰿅   Logout\n   Poweroff" | rofi -width 350 -dmenu -p system:)
+cmd=$(echo -e "Suspend\nReboot\nLogout\nPoweroff" | rofi -width 350 -dmenu -p system:)
+# cmd=$(echo -e "󰒲   Suspend\n󱄌   Reboot\n󰿅   Logout\n   Poweroff" | rofi -width 350 -dmenu -p system:)
 case $cmd in
-    suspend)
+    Suspend)
         systemctl suspend ;;
-    reboot)
+    Reboot)
         systemctl reboot ;;
-    logout)
+    Logout)
         hyprctl dispatch exit 0 ;;
-    poweroff)
+    Poweroff)
         systemctl poweroff ;;
 esac

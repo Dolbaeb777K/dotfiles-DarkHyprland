@@ -1,5 +1,6 @@
 # DarkHyprland
 This repository includes pre-configured dotfiles for Hyprland (works correctly on Linux systems only) ...
+# Wallpapers - https://github.com/JaKooLit/Wallpaper-Bank
 
 ## About
 Many more shaders, blur ...

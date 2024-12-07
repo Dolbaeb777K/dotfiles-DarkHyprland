@@ -12,7 +12,7 @@ fonts: `ttf-jetbrains-mono-nerd ttf-segoe-ui-variable ttf-ubuntu-font-family`
 
 ![2024-12-06-235233_hyprshot](https://github.com/user-attachments/assets/691660ad-06ae-4d98-aa26-d7247b652e3a)
 
-## Fetures:
+## Features:
 | Keybind | Description |
 | --- | --- |
 | `SUPER, G` | Open Terminal |

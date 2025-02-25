@@ -4,8 +4,7 @@ This repository includes pre-configured dotfiles for Hyprland (works correctly o
 Wallpapers - https://github.com/JaKooLit/Wallpaper-Bank
 
 ## About
-Many more shaders, blur ...
-
+Many more shadows, blur, small launch a float kitty-terminal. No rounded. Smoothing is made only by shadows.
 ## Dependencies:
 Main:  `hyprland xdg-desktop-portal-hyprland waybar rofi-wayland hyprshot waypaper pavucontrol neovim`
 

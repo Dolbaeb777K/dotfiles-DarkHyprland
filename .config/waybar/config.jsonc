@@ -1,0 +1,35 @@
+{    
+    // Position
+    "layer": "top",
+    "position": "top",
+    "spacing": 7,
+    // "margin": "-10 20 8 20", // for Buttom position
+    "margin": "8 20 -10 20", // for top position
+    
+    // include the modules
+    "include": [
+        "$HOME/.config/waybar/Modules.json",
+	"$HOME/.config/waybar/ModulesWorkspaces",
+        "$HOME/.config/waybar/CustomModules.json",
+	"$HOME/.config/waybar/GroupModules.json"
+    ],
+
+		// Just replace "Sway" in names of modules to the "hyprland"
+    "modules-left": [
+        "hyprland/workspaces#rw",
+	"hyprland/mode",
+	"hyprland/language",
+	"group/options"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+	"custom/volume",
+        "clock",
+	"tray",
+	"custom/separator#blank",
+	"custom/power"
+	// "group/power"
+    ]
+}

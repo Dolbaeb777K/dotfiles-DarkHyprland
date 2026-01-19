@@ -1,0 +1,29 @@
+{                            
+  "group/power...": {
+	"orientation": "inherit",
+	"drawer": {
+		"transition-duration": 500,
+		"children-class": "not-power",
+		"transition-right-to-left": true
+        },
+	"modules": [
+		"custom/power",
+		"custom/quit",
+		"custom/lock",
+		"custom/reboot"
+	]
+   },
+
+   "group/options": {
+	"orientation": "inherit",
+	"drawer": {
+		"transition-duration": 500,
+		"children-class": "idle_inhibitor",
+		"transition-right-to-left": true
+	},
+	"modules": [
+		"idle_inhibitor",
+		"custom/layout"
+        ]
+   }
+}

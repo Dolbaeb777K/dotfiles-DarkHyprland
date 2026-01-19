@@ -1,0 +1,64 @@
+{
+	"custom/power": {
+	    "format" : " ⏻ ",
+		"tooltip": false,
+		"menu": "on-click",
+		"menu-file": "~/.config/waybar/power_menu.xml",
+		"menu-actions": {
+		    "shutdown": "shutdown now",
+		    "reboot": "reboot",
+		    "suspend": "systemctl suspend",
+		    "logout": "hyprctl dispatch exit"
+		}
+	},
+        "custom/niflveil": {
+           "format": "{}",
+           "exec": "niflveil show",
+           "on-click": "niflveil restore-last",
+           "return-type": "json",
+           "interval": "once",
+           "signal": 8
+        },
+
+	"custom/layout": {
+	   "format": " (.)(.)",
+	   "tooltip": false,
+	   "on-click": "hyprctl dispatch togglesplit"
+	},
+
+	"custom/quit": {
+	    "format": "󰗼",
+	    "tooltip": false,
+	    "on-click": "hyprctl dispatch exit"
+	},
+	"custom/lock": {
+	    "format": "󰍁",
+	    "tooltip": false,
+	    "on-click": "swaylock"
+	},
+	"custom/reboot": {
+	    "format": "󰜉",
+	    "tooltip": false,
+	    "on-click": "reboot"
+	},
+	"custom/volume": {
+	    "exec": "~/.config/waybar/volume_widget.sh status",
+	    "exec-if": "pactl info",
+	    "interval": 1,
+	    "return-type": "json",
+	    "on-click": "~/.config/waybar/volume_widget.sh toggle",
+	    "on-scroll-up": "~/.config/waybar/volume_widget.sh up",
+	    "on-scroll-down": "~/.config/waybar/volume_widget.sh down",
+	    "tooltip": true
+	},
+	"custom/separator#blank": {
+	    "format": " ",
+	    "interval": "once",
+	    "tooltip": false
+	},
+	"custom/power mouddule disabled": {
+	    "format": " ",
+	    "tooltip": false,
+	    "on-click": "shutdown now"
+	}
+}

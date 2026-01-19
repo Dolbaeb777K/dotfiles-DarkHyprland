@@ -1,0 +1,30 @@
+{    
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%d %b %y    %H : %M   }",
+    "format-alt": "{:%d %b %y    %H : %M : %S   }",
+    "interval": 1    
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "  ",
+        "deactivated": "  "
+    }
+  },
+
+  "tray": {
+    "icon-size": 14,
+    "spacing": 14
+  },
+
+  "hyprland/language": {
+    "format": "{long}"
+  },
+
+  "hyprland/window": {
+    "max-length": 50
+  }
+}
+
